@@ -187,7 +187,7 @@ namespace linkedlist_quanly
             {
                 Location = new Point(220, 5),
                 Size = new Size(100, 30),
-                Image = ResizeImage(Image.FromFile("Resources/bell.png"), 30, 30),
+                Image = ResizeImage(Image.FromFile("Resources/sign-out.png"), 30, 30),
                 SizeMode = PictureBoxSizeMode.CenterImage, // Adjust image to fit
                 BackColor = Color.Transparent // Optional: make background transparent
             };
@@ -221,7 +221,7 @@ namespace linkedlist_quanly
             {
                 CornerRadius = 30,
                 Location = new Point(55, 0),
-                Size = new Size(225, 30),
+                Size = new Size(255, 30),
                 DisplayText = "Bạn đang nghĩ gì?", // Set the text to display
                 TextColor = Color.Black, // Set the text color to 
                 TextStartX = 11,
@@ -234,16 +234,7 @@ namespace linkedlist_quanly
             uploadButton.MouseEnter += (s, e) => uploadButton.BackColor = Color.FromArgb(255, 227, 229, 228); // Optional: hover effect
             uploadButton.MouseLeave += (s, e) => uploadButton.BackColor = Color.Transparent; // Reset hover effect*/
 
-            RoundedPictureBox uploadPicture = new RoundedPictureBox
-            {
-                Location = new Point(283, 0),
-                Size = new Size(30, 30),
-                Image = ResizeImage(Image.FromFile("Resources/photos.png"), 30, 30),
-                SizeMode = PictureBoxSizeMode.CenterImage, // Adjust image to fit
-                BackColor = Color.Transparent // Optional: make background transparent
-            };
-            uploadPicture.MouseEnter += (s, e) => uploadPicture.BackColor = Color.FromArgb(255, 227, 229, 228); // Optional: hover effect
-            uploadPicture.MouseLeave += (s, e) => uploadPicture.BackColor = Color.Transparent; // Reset hover effect*/
+
 
             RoundedPictureBox uehLogo = new RoundedPictureBox
             {
@@ -261,7 +252,7 @@ namespace linkedlist_quanly
                 Margin = new Padding(0, 0, 0, 10) // Optional margin
             };
 
-            uploadPanel.Controls.AddRange(new Control[] { uploadButton, uploadPicture, uehLogo, separator1 });
+            uploadPanel.Controls.AddRange(new Control[] { uploadButton, uehLogo, separator1 });
 
 
             uploadButton.Click += (s, e) =>
@@ -307,19 +298,16 @@ namespace linkedlist_quanly
                 isProfileView = true;
                 RefreshPosts();
             };
-
-            string selectedMediaPath = "";
-            uploadPicture.Click += (s, e) =>
+            notificationButton.Click += (s, e) =>
             {
-                using (OpenFileDialog ofd = new OpenFileDialog())
+                // Optional: Show a confirmation message before exiting
+                if (MessageBox.Show("Bạn có muốn thoát chương trình?", "Xác nhận",
+                    MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
                 {
-                    ofd.Filter = "Media files (*.jpg, *.gif, *.mp4)|*.jpg;*.gif;*.mp4";
-                    if (ofd.ShowDialog() == DialogResult.OK)
-                    {
-                        selectedMediaPath = ofd.FileName;
-                    }
+                    Application.Exit();
                 }
             };
+            string selectedMediaPath = "";
 
             postBtn.Click += (s, e) =>
             {
@@ -372,7 +360,7 @@ namespace linkedlist_quanly
                 Panel postPanel = new Panel
                 {
                     Location = new Point(0, 0),
-                    Size = new Size(320, 200),
+                    Size = new Size(320, 200 + hasComment),
                     BorderStyle = BorderStyle.None,
                     
                     Margin = new Padding(0, 0, 0, 10),
@@ -491,15 +479,54 @@ namespace linkedlist_quanly
 
                 TextBox commentBox = new TextBox
                 {
-                    Size = new Size(175, 30),
+                    Size = new Size(120, 30),
                     Font = new Font("Ariel", 7),
                     Multiline = true,
-                    Location = new Point(0, 0),
+                    Location = new Point(55, 0),
                     Text = "Viết bình luận...",
                     ForeColor = Color.Gray
                 };
 
+                Button likeButton = new Button
+                {
+                    Text = $"❤️ {post.Likes}", // Hiển thị biểu tượng tim và số lượt thích
+                    Font = new Font("Arial", 10, FontStyle.Regular),
+                    Size = new Size(50, 30),  // Thu hẹp kích thước nút like
+                    Location = new Point(0, 0), // Đặt nút like ở vị trí bên trái
+                    BackColor = Color.White,
+                    FlatStyle = FlatStyle.Flat
+                };
+                likeButton.FlatAppearance.BorderSize = 0;
 
+                // Xử lý sự kiện nhấn nút "like"
+                likeButton.Click += (s, e) =>
+                {
+                    if (post.LikedUsers.ContainsKey(currentUser))
+                    {
+                        if (post.LikedUsers[currentUser])
+                        {
+                            post.Likes--; // Giảm số lượt thích
+                            likeButton.ForeColor = Color.Black; // Màu nút về màu ban đầu
+                        }
+                        else
+                        {
+                            post.Likes++; // Tăng số lượt thích
+                            likeButton.ForeColor = Color.Red; // Đổi màu nút thành đỏ
+                        }
+
+                        post.LikedUsers[currentUser] = !post.LikedUsers[currentUser];
+                    }
+                    else
+                    {
+                        post.LikedUsers.Add(currentUser, true); // Thêm người dùng vào danh sách đã thích
+                        post.Likes++;
+                        likeButton.ForeColor = Color.Red; // Đổi màu nút thành đỏ
+                    }
+
+                    likeButton.Text = $"❤️ {post.Likes}"; // Cập nhật lại số lượt thích
+                };
+                commentSection.Controls.Add(likeButton);
+                commentSection.Controls.Add(commentBox);
 
                 commentBox.Enter += (s, e) =>
                 {
@@ -559,10 +586,10 @@ namespace linkedlist_quanly
                     hasComment += 40;
                     System.Windows.Forms.Label commentLabel = new System.Windows.Forms.Label
                     {
-                        Size = new Size(20, 15),
+                        Size = new Size(100, 15),
                         Text = $"{comment.Author}: {comment.Text}",
                         Location = new Point(0, commentY),
-                        Font = new Font("Arial", 10),
+                        Font = new Font("Arial", 5),
                     };
 
                     System.Windows.Forms.Label commentTimeLabel = new System.Windows.Forms.Label
@@ -571,7 +598,7 @@ namespace linkedlist_quanly
                         Text = $"• {FormatTimeAgo(comment.PostTime)}",
                         ForeColor = Color.Gray,
                         Location = new Point(commentLabel.Right + 5, commentY),
-                        Font = new Font("Arial", 10),
+                        Font = new Font("Arial", 5),
                     };
 
                     commentSection.Controls.AddRange(new Control[] { commentLabel, commentTimeLabel });
@@ -579,7 +606,7 @@ namespace linkedlist_quanly
                 }
 
                 commentSection.Controls.AddRange(new Control[] { commentBox, commentButton });
-                //commentSection.Height = Math.Max(200, commentY + 30);
+                commentSection.Height += hasComment;
                 // Thêm nút share nếu không phải bài viết của chính mình và không phải bài đã share
                 if (post.Author != currentUser && post.SharedBy == null)
                 {

@@ -340,6 +340,7 @@ namespace linkedlist_quanly
         public string MediaReference { get; set; }
         public DateTime PostTime { get; set; }
         public string Author { get; set; }
+        public int Likes { get; set; }
     }
     public class User        //quan ly user
     {
@@ -897,6 +898,8 @@ namespace linkedlist_quanly
         public string SharedBy { get; set; }
         public Post OriginalPost { get; set; }
         public List<Comment> Comments { get; set; }
+        public int Likes { get; set; }
+        public Dictionary<string, bool> LikedUsers { get; set; }
 
         public Post(string content, string mediaReference, string author, DateTime? postTime = null)
         {
@@ -908,6 +911,8 @@ namespace linkedlist_quanly
             SharedBy = null;
             OriginalPost = null;
             Comments = new List<Comment>();
+            Likes = 0;
+            LikedUsers = new Dictionary<string, bool>();
         }
 
         public Post(Post originalPost, string sharedBy)
@@ -920,6 +925,8 @@ namespace linkedlist_quanly
             SharedBy = sharedBy;
             OriginalPost = originalPost;
             Comments = new List<Comment>();
+            Likes = 0;
+            LikedUsers = new Dictionary<string, bool>();
         }
 
         public void AddComment(string text, string author)
