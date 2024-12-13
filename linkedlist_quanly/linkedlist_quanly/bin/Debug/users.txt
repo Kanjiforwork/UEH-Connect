@@ -1,0 +1,2 @@
+Kanji|11111111|Resources/default-avatar.png
+binh|12345678|Resources/default-avatar.png

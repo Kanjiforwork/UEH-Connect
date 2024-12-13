@@ -1,0 +1,160 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\[CODE_TESTING]\\[DATASTRUCTURE-Bao (1)]\\DATASTRUCTURE-Bao\\linkedlist_quanly\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{58D25279-5F3E-4D7D-ABB1-D31B237BAA0A}|linkedlist_quanly\\linkedlist_quanly.csproj|e:\\[code_testing]\\[datastructure-bao (1)]\\datastructure-bao\\linkedlist_quanly\\linkedlist_quanly\\formlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58D25279-5F3E-4D7D-ABB1-D31B237BAA0A}|linkedlist_quanly\\linkedlist_quanly.csproj|solutionrelative:linkedlist_quanly\\formlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58D25279-5F3E-4D7D-ABB1-D31B237BAA0A}|linkedlist_quanly\\linkedlist_quanly.csproj|E:\\[CODE_TESTING]\\[DATASTRUCTURE-Bao (1)]\\DATASTRUCTURE-Bao\\linkedlist_quanly\\linkedlist_quanly\\formdesign.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58D25279-5F3E-4D7D-ABB1-D31B237BAA0A}|linkedlist_quanly\\linkedlist_quanly.csproj|solutionrelative:linkedlist_quanly\\formdesign.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58D25279-5F3E-4D7D-ABB1-D31B237BAA0A}|linkedlist_quanly\\linkedlist_quanly.csproj|E:\\[CODE_TESTING]\\[DATASTRUCTURE-Bao (1)]\\DATASTRUCTURE-Bao\\linkedlist_quanly\\linkedlist_quanly\\ultilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58D25279-5F3E-4D7D-ABB1-D31B237BAA0A}|linkedlist_quanly\\linkedlist_quanly.csproj|solutionrelative:linkedlist_quanly\\ultilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58D25279-5F3E-4D7D-ABB1-D31B237BAA0A}|linkedlist_quanly\\linkedlist_quanly.csproj|E:\\[CODE_TESTING]\\[DATASTRUCTURE-Bao (1)]\\DATASTRUCTURE-Bao\\linkedlist_quanly\\linkedlist_quanly\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58D25279-5F3E-4D7D-ABB1-D31B237BAA0A}|linkedlist_quanly\\linkedlist_quanly.csproj|solutionrelative:linkedlist_quanly\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58D25279-5F3E-4D7D-ABB1-D31B237BAA0A}|linkedlist_quanly\\linkedlist_quanly.csproj|E:\\[CODE_TESTING]\\[DATASTRUCTURE-Bao (1)]\\DATASTRUCTURE-Bao\\linkedlist_quanly\\linkedlist_quanly\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{58D25279-5F3E-4D7D-ABB1-D31B237BAA0A}|linkedlist_quanly\\linkedlist_quanly.csproj|solutionrelative:linkedlist_quanly\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|linkedlist_quanly||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58D25279-5F3E-4D7D-ABB1-D31B237BAA0A}|linkedlist_quanly\\linkedlist_quanly.csproj|E:\\[CODE_TESTING]\\[DATASTRUCTURE-Bao (1)]\\DATASTRUCTURE-Bao\\linkedlist_quanly\\linkedlist_quanly\\ultilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{58D25279-5F3E-4D7D-ABB1-D31B237BAA0A}|linkedlist_quanly\\linkedlist_quanly.csproj|solutionrelative:linkedlist_quanly\\ultilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\[CODE_TESTING]\\[DATASTRUCTURE-Bao (1)]\\DATASTRUCTURE-Bao\\linkedlist_quanly\\linkedlist_quanly\\bin\\Debug\\linkedlist_quanly.exe||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:linkedlist_quanly\\bin\\Debug\\linkedlist_quanly.exe||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58D25279-5F3E-4D7D-ABB1-D31B237BAA0A}|linkedlist_quanly\\linkedlist_quanly.csproj|E:\\[CODE_TESTING]\\[DATASTRUCTURE-Bao (1)]\\DATASTRUCTURE-Bao\\linkedlist_quanly\\linkedlist_quanly\\app.manifest||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{58D25279-5F3E-4D7D-ABB1-D31B237BAA0A}|linkedlist_quanly\\linkedlist_quanly.csproj|solutionrelative:linkedlist_quanly\\app.manifest||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Ultilities.cs",
+              "DocumentMoniker": "E:\\[CODE_TESTING]\\[DATASTRUCTURE-Bao (1)]\\DATASTRUCTURE-Bao\\linkedlist_quanly\\linkedlist_quanly\\Ultilities.cs",
+              "RelativeDocumentMoniker": "linkedlist_quanly\\Ultilities.cs",
+              "ToolTip": "E:\\[CODE_TESTING]\\[DATASTRUCTURE-Bao (1)]\\DATASTRUCTURE-Bao\\linkedlist_quanly\\linkedlist_quanly\\Ultilities.cs",
+              "RelativeToolTip": "linkedlist_quanly\\Ultilities.cs",
+              "ViewState": "AQIAAFIAAAAAAAAAAAAqwDcAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000587|",
+              "WhenOpened": "2024-12-11T15:03:57.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormLogic.cs",
+              "DocumentMoniker": "E:\\[CODE_TESTING]\\[DATASTRUCTURE-Bao (1)]\\DATASTRUCTURE-Bao\\linkedlist_quanly\\linkedlist_quanly\\FormLogic.cs",
+              "RelativeDocumentMoniker": "linkedlist_quanly\\FormLogic.cs",
+              "ToolTip": "E:\\[CODE_TESTING]\\[DATASTRUCTURE-Bao (1)]\\DATASTRUCTURE-Bao\\linkedlist_quanly\\linkedlist_quanly\\FormLogic.cs*",
+              "RelativeToolTip": "linkedlist_quanly\\FormLogic.cs*",
+              "ViewState": "AQIAAJ8DAAAAAAAAAAAuwLMDAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T15:03:59.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormDesign.cs",
+              "DocumentMoniker": "E:\\[CODE_TESTING]\\[DATASTRUCTURE-Bao (1)]\\DATASTRUCTURE-Bao\\linkedlist_quanly\\linkedlist_quanly\\FormDesign.cs",
+              "RelativeDocumentMoniker": "linkedlist_quanly\\FormDesign.cs",
+              "ToolTip": "E:\\[CODE_TESTING]\\[DATASTRUCTURE-Bao (1)]\\DATASTRUCTURE-Bao\\linkedlist_quanly\\linkedlist_quanly\\FormDesign.cs",
+              "RelativeToolTip": "linkedlist_quanly\\FormDesign.cs",
+              "ViewState": "AQIAAAACAAAAAAAAAAAiwB0CAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T15:03:59.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Ultilities.cs [Design]",
+              "DocumentMoniker": "E:\\[CODE_TESTING]\\[DATASTRUCTURE-Bao (1)]\\DATASTRUCTURE-Bao\\linkedlist_quanly\\linkedlist_quanly\\Ultilities.cs",
+              "RelativeDocumentMoniker": "linkedlist_quanly\\Ultilities.cs",
+              "ToolTip": "C:\\Users\\baole\\Documents\\GitHub\\DATASTRUCTURE\\linkedlist_quanly\\linkedlist_quanly\\Ultilities.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000587|",
+              "WhenOpened": "2024-12-11T15:03:59.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.config",
+              "DocumentMoniker": "E:\\[CODE_TESTING]\\[DATASTRUCTURE-Bao (1)]\\DATASTRUCTURE-Bao\\linkedlist_quanly\\linkedlist_quanly\\App.config",
+              "RelativeDocumentMoniker": "linkedlist_quanly\\App.config",
+              "ToolTip": "E:\\[CODE_TESTING]\\[DATASTRUCTURE-Bao (1)]\\DATASTRUCTURE-Bao\\linkedlist_quanly\\linkedlist_quanly\\App.config",
+              "RelativeToolTip": "linkedlist_quanly\\App.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-12-11T15:03:59.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "linkedlist_quanly",
+              "DocumentMoniker": "E:\\[CODE_TESTING]\\[DATASTRUCTURE-Bao (1)]\\DATASTRUCTURE-Bao\\linkedlist_quanly\\linkedlist_quanly\\linkedlist_quanly.csproj",
+              "RelativeDocumentMoniker": "linkedlist_quanly\\linkedlist_quanly.csproj",
+              "ToolTip": "E:\\[CODE_TESTING]\\[DATASTRUCTURE-Bao (1)]\\DATASTRUCTURE-Bao\\linkedlist_quanly\\linkedlist_quanly\\linkedlist_quanly.csproj",
+              "RelativeToolTip": "linkedlist_quanly\\linkedlist_quanly.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-04T17:53:53.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\[CODE_TESTING]\\[DATASTRUCTURE-Bao (1)]\\DATASTRUCTURE-Bao\\linkedlist_quanly\\linkedlist_quanly\\Program.cs",
+              "RelativeDocumentMoniker": "linkedlist_quanly\\Program.cs",
+              "ToolTip": "E:\\[CODE_TESTING]\\[DATASTRUCTURE-Bao (1)]\\DATASTRUCTURE-Bao\\linkedlist_quanly\\linkedlist_quanly\\Program.cs",
+              "RelativeToolTip": "linkedlist_quanly\\Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAIwBsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T15:03:59.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "linkedlist_quanly.exe",
+              "DocumentMoniker": "E:\\[CODE_TESTING]\\[DATASTRUCTURE-Bao (1)]\\DATASTRUCTURE-Bao\\linkedlist_quanly\\linkedlist_quanly\\bin\\Debug\\linkedlist_quanly.exe",
+              "RelativeDocumentMoniker": "linkedlist_quanly\\bin\\Debug\\linkedlist_quanly.exe",
+              "ToolTip": "E:\\[CODE_TESTING]\\[DATASTRUCTURE-Bao (1)]\\DATASTRUCTURE-Bao\\linkedlist_quanly\\linkedlist_quanly\\bin\\Debug\\linkedlist_quanly.exe",
+              "RelativeToolTip": "linkedlist_quanly\\bin\\Debug\\linkedlist_quanly.exe",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000165|",
+              "WhenOpened": "2024-12-11T15:03:59.889Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "app.manifest",
+              "DocumentMoniker": "E:\\[CODE_TESTING]\\[DATASTRUCTURE-Bao (1)]\\DATASTRUCTURE-Bao\\linkedlist_quanly\\linkedlist_quanly\\app.manifest",
+              "RelativeDocumentMoniker": "linkedlist_quanly\\app.manifest",
+              "ToolTip": "E:\\[CODE_TESTING]\\[DATASTRUCTURE-Bao (1)]\\DATASTRUCTURE-Bao\\linkedlist_quanly\\linkedlist_quanly\\app.manifest",
+              "RelativeToolTip": "linkedlist_quanly\\app.manifest",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001203|",
+              "WhenOpened": "2024-12-11T15:03:59.89Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
